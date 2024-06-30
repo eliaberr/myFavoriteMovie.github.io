@@ -1,6 +1,45 @@
-.navBar-color{
-    background-color: #06294c;
-}
  .menu-focus:hover{
     background-color: #020a21;
  }
+
+ .color-prymari{
+    background-color: #06294c;
+ }
+
+ .color-segundary{
+    background-color:#051f3e ;
+ }
+
+ .color-tertiary{
+    background-color:#051f3e ;
+ }
+
+ .color-quaternary{
+    background-color:#020a21 ;
+ }
+
+ .color-quinary{
+    background-color:#000013 ;
+ }
+ .inline-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.inline-list li {
+    margin-right: 15px;
+}
+.margin-carousel{
+    margin-left: 5rem;
+}
+.cardSelected:hover{
+    transform: scale(1.1);
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5rem; /* Altera a largura do controle */
+    height: 18,1rem; /* Altera a altura do controle */
+}
+.bg-black-transparent{
+    background-color: rgba(0, 0, 0, 0.589);
+}
